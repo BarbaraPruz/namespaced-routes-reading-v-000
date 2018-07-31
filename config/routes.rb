@@ -8,14 +8,10 @@ Rails.application.routes.draw do
 
   # equivalent to this is below: get '/admin/stats', to: 'stats#index'
   # but with scope, you can nicely add additional routes
-<<<<<<< HEAD
   # 'module' needed because using namespace (subfolders)
   #  scope '/admin', module: 'admin'do   ==> helper stats_path
   # namespace keyword is sort of shorthand for the scope/module  ==> helper admin_stats_path
   namespace :admin do
-=======
-  scope '/admin' do
->>>>>>> 8c7572e8584bfeb28c20e01f21cf40bed39bc776
     resources :stats, only: [:index]
   end
 
