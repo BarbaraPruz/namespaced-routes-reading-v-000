@@ -4567,3 +4567,5 @@ Processing by Admin::StatsController#index as HTML
 Completed 200 OK in 20ms (Views: 16.9ms | ActiveRecord: 0.5ms)
 =======
 >>>>>>> 8c7572e8584bfeb28c20e01f21cf40bed39bc776
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
